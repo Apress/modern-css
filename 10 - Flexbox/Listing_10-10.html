@@ -1,0 +1,56 @@
+<style>
+  body {
+    margin: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border: 5px dashed black;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background: skyblue;
+    padding: 1rem;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    border: 5px dashed blue;
+  }
+
+  .sidebar {
+    background: cornflowerblue;
+    padding: 1rem;
+  }
+
+  .content {
+    flex-grow: 1;
+    background: beige;
+    padding: 1rem;
+  }
+
+  .sidebar-2 {
+    background: turquoise;
+    padding: 1rem;
+  }
+
+  .footer {
+    background: orange;
+    padding: 1rem;
+  }
+</style>
+
+<div class="container">
+  <header class="header">Header</header>
+  <main class="main">
+    <div class="sidebar">Sidebar</div>
+    <div class="content">Content</div>
+    <div class="sidebar-2">Sidebar 2</div>
+  </main>
+  <footer class="footer">Footer</footer>
+</div>

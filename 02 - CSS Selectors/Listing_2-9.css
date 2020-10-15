@@ -1,0 +1,4 @@
+.external-link::after {
+  content: " (external)"
+  color: green;
+}

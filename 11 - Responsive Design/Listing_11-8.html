@@ -1,0 +1,69 @@
+<style>
+  body {
+    margin: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .header {
+    background: orange;
+    padding: 1rem;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+  }
+
+  .content {
+    background: salmon;
+    padding: 1rem;
+    flex-grow: 1;
+  }
+
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    background: skyblue;
+    padding: 1rem;
+  }
+
+  .sidebar a {
+    margin: 1rem;
+    padding: 0.5rem 2rem;
+    border: 1px solid black;
+  }
+
+  .sidebar2 {
+    background: lime;
+    padding: 1rem;
+  }
+
+  .footer {
+    background: beige;
+    padding: 1rem;
+  }
+</style>
+
+<div class="container">
+  <header class="header">Header</header>
+  <main class="main">
+    <nav class="sidebar">
+      <a href="/home">Home</a>
+      <a href="/about">About</a>
+      <a href="/photos">Photos</a>
+    </nav>
+    <div class="content">
+      Hello world!
+    </div>
+    <div class="sidebar2">
+      Sidebar 2
+    </div>
+  </main>
+  <footer class="footer">Footer</footer>
+</div>

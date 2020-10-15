@@ -1,0 +1,11 @@
+@media screen and (max-width: 700px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

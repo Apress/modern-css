@@ -1,0 +1,5 @@
+.item1 {
+  background: skyblue;
+  grid-row: 2;
+  grid-column: 3;
+}

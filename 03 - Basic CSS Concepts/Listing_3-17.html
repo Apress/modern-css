@@ -1,0 +1,18 @@
+<style>
+  :root {
+    --primary-border-color: red;
+    --primary-border-style: solid;
+    --primary-border-width: 3px;
+    --primary-border: 
+      var(--primary-border-width) 
+      var(--primary-border-style)
+      var(--primary-border-color);
+  }
+
+  .container {
+    border: var(--primary-border);
+    width: 10rem;
+  }
+</style>
+
+<div class="container">Hello World!</div>

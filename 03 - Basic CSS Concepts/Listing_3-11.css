@@ -1,0 +1,7 @@
+:root {
+  --spacing: 0.5rem
+}
+
+.container {
+  padding: calc(var(--spacing) * 2);
+}

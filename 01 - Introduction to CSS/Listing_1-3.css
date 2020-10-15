@@ -1,0 +1,6 @@
+/* This is a comment outside of a rule */
+
+.header {
+  /* This is a comment inside of a rule */
+  background-color: red;
+}

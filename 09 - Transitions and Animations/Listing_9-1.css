@@ -1,0 +1,8 @@
+button.fancy-button {
+  background: blue;
+}
+
+button.fancy-button:hover {
+  background: red;
+  transform: scale(1.1);
+}

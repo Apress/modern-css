@@ -1,0 +1,36 @@
+<style>
+  .container {
+    display: grid;
+    gap: 5px;
+    width: 500px;
+    grid-template-rows: 
+      [header-start] 2rem
+      [content-start] 10rem
+      [footer-start] 2rem
+      [footer-end];
+    grid-template-columns:
+      [sidebar-start] 5rem
+      [content-start] 1fr
+      [content-end];
+  }
+
+  .container > div {
+    background: lightgray;
+  }
+
+  .header {
+    grid-row: header-start / content-start;
+    grid-column: sidebar-start / content-end;
+  }
+
+  .footer {
+    grid-column: sidebar-start / content-end;
+  }
+</style>
+
+<div class="container">
+  <div class="item header">Header</div>
+  <div class="item sidebar">Sidebar</div>
+  <div class="item content">Content</div>
+  <div class="item footer">Footer</div>
+</div>

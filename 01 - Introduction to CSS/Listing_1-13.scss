@@ -1,0 +1,9 @@
+@mixin flexbox {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header {
+  @include flexbox;
+}

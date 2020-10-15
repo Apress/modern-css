@@ -1,0 +1,22 @@
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: orangered;
+}
+
+div {
+  padding: 1rem;
+}
+
+div h2 {
+  font-size: 1.2rem;
+  color: blue;
+}
+
+div p {
+  font-size: 0.9rem;
+  color: gray;
+}

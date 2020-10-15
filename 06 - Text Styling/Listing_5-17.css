@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'SomeWebFont';
+  src: 
+    url('/some-font.woff2') format('woff2'),
+    url('/some-font.woff') format('woff');
+}
+
+body {
+  font-family: SomeWebFont, Arial, sans-serif;
+}

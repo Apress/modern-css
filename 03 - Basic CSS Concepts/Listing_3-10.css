@@ -1,0 +1,12 @@
+.header {
+  font-size: 24px;
+  padding: 0.5em;
+}
+
+.header li {
+  font-size: 0.75em;
+}
+
+.header li a {
+  font-size: 0.5em;
+}

@@ -1,0 +1,28 @@
+<style>
+  @keyframes color {
+    from {
+      background-color: red;
+    }
+    to {
+      background-color: blue;
+    }
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .animate {
+    width: 10rem;
+    height: 10rem;
+    animation: color 5s alternate infinite,
+               spin 1s linear infinite;
+  }
+</style>
+
+<div class="animate"></div>

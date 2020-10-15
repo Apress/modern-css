@@ -1,0 +1,44 @@
+<style>
+  .container {
+    width: 10rem;
+    height: 10rem;
+    perspective: 500px;
+    margin: 5rem;
+  }
+
+  .cube {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    transform-style: preserve-3d;
+    transform: rotate3d(1, 1, 0, 45deg);
+  }
+
+  .face {
+    width: 10rem;
+    height: 10rem;
+    background: skyblue;
+    border: 2px solid black;
+    position: absolute;
+    opacity: 0.5;
+    text-align: center;
+  }
+
+  .back { transform: rotateY(180deg); }
+  .left { transform: rotateY(-90deg); }
+  .right { transform: rotateY(90deg); }
+  .top { transform: rotateX(90deg); }
+  .bottom { transform: rotateX(-90deg); }
+
+</style>
+
+<div class="container">
+  <div class="cube">
+    <div class="face top">Top</div>
+    <div class="face bottom">Bottom</div>
+    <div class="face left">Left</div>
+    <div class="face right">Right</div>
+    <div class="face front">Front</div>
+    <div class="face back">Back</div>
+  </div>
+</div>

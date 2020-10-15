@@ -1,0 +1,10 @@
+button.fancy-button {
+  background: blue;
+  transition: background-color 500ms,
+              transform 500ms 500ms;
+}
+
+button.fancy-button:hover {
+  background: red;
+  transform: scale(1.1);
+}

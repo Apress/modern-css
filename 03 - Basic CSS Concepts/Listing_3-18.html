@@ -1,0 +1,26 @@
+<style>
+  :root {
+    --row-height: 1.5rem;
+    --visible-rows: 3;
+  }
+
+  .container {
+    border: 1px solid red;
+    height: calc(var(--row-height) * var(--visible-rows));
+    overflow: auto;
+    width: 10rem;
+  }
+
+  .row {
+    line-height: var(--row-height);
+  }
+</style>
+
+<div class="container">
+  <div class="row">Row one</div>
+  <div class="row">Row two</div>
+  <div class="row">Row three</div>
+  <div class="row">Row four</div>
+  <div class="row">Row five</div>
+  <div class="row">Row six</div>
+</div>

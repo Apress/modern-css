@@ -1,0 +1,35 @@
+<style>
+  .header {
+    background-color: red;
+    color: white;
+    height: 1rem;
+    left: 0;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+  .body {
+    margin-top: 3.5rem;
+  }
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+  }
+</style>
+
+<div class="overlay"></div>
+<div class="container">
+  <div class="header">Header</div>
+  <div class="body">
+    Some other page content
+  </div>
+</div>

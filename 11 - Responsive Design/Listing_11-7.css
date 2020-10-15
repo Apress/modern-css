@@ -1,0 +1,8 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: clamp(48px, 4.8vw, 64px);
+}

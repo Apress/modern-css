@@ -1,0 +1,29 @@
+<style>
+  .heart {
+    background: red;
+    transform: rotate(45deg);
+    width: 10rem;
+    height: 10rem;
+    margin: 10rem auto;
+  }
+
+  .heart::after,
+  .heart::before {
+    border-radius: 50%;
+    content: '';
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    background: red;
+  }
+
+  .heart::before {
+    transform: translateX(-5rem);
+  }
+
+  .heart::after {
+    transform: translateY(-5rem);
+  }
+</style>
+
+<div class="heart"></div>
