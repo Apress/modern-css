@@ -1,22 +1,25 @@
 <style>
-  .block {
+  .outer {
     background-color: red;
-    height: 3rem;
-    width: 3rem;
+    height: 10rem;
+    width: 10rem;
   }
 
-  .green {
-    background-color: green;
-  }
-
-  .relative {
+  .inner {
     background-color: blue;
-    position: relative;
-    left: 10px;
-    top: 10px;
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .core {
+    background-color: green;
+    height: 4rem;
+    width: 4rem;
   }
 </style>
 
-<div class="block"></div>
-<div class="block relative"></div>
-<div class="block green"></div>
+<div class="outer">
+  <div class="inner">
+    <div class="core"></div>
+  </div>
+</div>

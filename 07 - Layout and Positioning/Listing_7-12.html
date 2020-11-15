@@ -1,29 +1,33 @@
 <style>
-  .outer {
+  .header {
     background-color: red;
-    height: 10rem;
-    width: 10rem;
-    position: relative;
+    color: white;
+    height: 1rem;
+    left: 0;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
 
-  .inner {
-    background-color: blue;
-    position: relative;
-    height: 7rem;
-    width: 7rem;
+  .body {
+    margin-top: 3.5rem;
   }
 
-  .core {
-    background-color: green;
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
     position: absolute;
-    right: 0;
-    height: 4rem;
-    width: 4rem;
+    top: 0;
+    width: 100%;
   }
 </style>
 
-<div class="outer">
-  <div class="inner">
-    <div class="core"></div>
+<div class="overlay"></div>
+<div class="container">
+  <div class="header">Header</div>
+  <div class="body">
+    Some other page content
   </div>
 </div>
